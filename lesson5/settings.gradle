@@ -12,7 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MireaProject"
+rootProject.name = "lesson5"
 include ':app'
-include ':fragmentworker'
-include ':fromlesson5'
+include ':accelerometer'
+include ':camera'
+include ':audiorecord'
