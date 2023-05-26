@@ -47,7 +47,7 @@ public class CameraActivity extends AppCompatActivity {
                 Bitmap.Config.ARGB_8888);
         imageViewCamera.setImageBitmap(bitmap);
         bitmap.eraseColor(Color.GREEN);
-        bitmap.setPixel(50, 50, Color.RED);
+        bitmap.setPixel(50, 50, Color.BLUE);
         int cameraPermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA);
         int storagePermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.
                 WRITE_EXTERNAL_STORAGE);
